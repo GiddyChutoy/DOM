@@ -65,3 +65,11 @@ function meterGenero() {
     input1[0].setAttribute("name", "chocho");
     input2[1].setAttribute("name", "pene");
 }
+
+function cambiarColorNegro() {
+    document.getElementById("destacado").style.color = "black"
+}
+
+function cambiarColorRojo() {
+    document.getElementById("destacado").style.color = "red"
+}
