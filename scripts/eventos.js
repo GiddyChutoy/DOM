@@ -9,6 +9,7 @@ window.onload = function() {
     document.getElementById("boton2").addEventListener("click", noFocoNombre, false);
     document.getElementById("ultimoParrafo").addEventListener("click", anadirH2, false);
 
+    //No funciona hay que mirarlo
     if (document.getElementById("destacado").style.color == "") {
         document.getElementsByTagName("p")[0].addEventListener("dblclick", cambiarColorRojo, false);
     } else if (document.getElementById("destacado").style.color == "red") {

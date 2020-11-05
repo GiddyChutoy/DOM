@@ -73,3 +73,9 @@ function cambiarColorNegro() {
 function cambiarColorRojo() {
     document.getElementById("destacado").style.color = "red"
 }
+
+function aceptar(event) {
+    if (event.type == "mousemove") {
+        document.getElementById("paralelo").innerHTML += "X = " + event.screenX + "\nY = " + event.screenY;
+    }
+}
